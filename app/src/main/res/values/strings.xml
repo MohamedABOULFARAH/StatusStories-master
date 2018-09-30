@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Status Stories</string>
+    <string name="stories">story</string>
+    <string name="upload">upload</string>
+    <string name="story_duration">Story duration</string>
+    <string name="is_text_progress_enabled">Is text progress enabled?</string>
+    <string name="is_immersive_enabled">Is immersive enabled?</string>
+    <string name="is_cache_enabled">Is cache enabled?</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="sign_in_cancelled">Ingreso cancelado</string>
+    <string name="no_internet_connection">Sin conexión a Internet</string>
+    <string name="sign_out">Salir</string>
+    <string name="delete">Eliminar</string>
+    <string name="sign_out_failed">Problemas al salir</string>
+    <string name="delete_account_failed">Eliminación de cuenta fallida</string>
+    <string name="unknown_sign_in_response">Respuesta desconocida al autenticarse</string>
+    <string name="atif_aslam">Atif Aslam</string>
+    <string name="rock">Rock</string>
+    <string name="tag_send">send</string>
+    <string name="tag_verify">verify</string>
+    <string name="signout">SignOut</string>
+
+
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_text">Text</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_adjust">Adjust</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

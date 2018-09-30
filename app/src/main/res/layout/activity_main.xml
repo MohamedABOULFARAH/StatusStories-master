@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/SignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:onClick="signOutPhone"
+        android:text="SignOut"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/isCacheEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:drawablePadding="16dp"
+            android:text="@string/is_cache_enabled" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/isImmersiveEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:drawablePadding="16dp"
+            android:text="@string/is_immersive_enabled" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/isTextEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeight"
+            android:drawablePadding="16dp"
+            android:text="@string/is_text_progress_enabled" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/story_duration" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightSmall"
+            android:max="10"
+            android:padding="16dp"
+            android:progress="3" />
+
+        <Button
+            android:id="@+id/storyTime"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightLarge"
+            android:layout_gravity="center"
+            android:text="@string/stories"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/uploadStory"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/listPreferredItemHeightLarge"
+            android:layout_gravity="center"
+            android:text="@string/upload"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

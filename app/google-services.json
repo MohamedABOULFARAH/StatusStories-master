@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "859463512808",
+    "firebase_url": "https://statusstories-master.firebaseio.com",
+    "project_id": "statusstories-master",
+    "storage_bucket": "statusstories-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859463512808:android:30a0adc2a990cb20",
+        "android_client_info": {
+          "package_name": "com.rahuljanagouda.statusstories.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859463512808-pa6c8satfkl74gka5volt0gug6d9kqf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahuljanagouda.statusstories.sample",
+            "certificate_hash": "0ccf7e190cdf7cbef72a715cbdcf82e0e8b32653"
+          }
+        },
+        {
+          "client_id": "859463512808-k08hv3ig20gmlghhvlgrvn0f3pihcpap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwg6h8lCMWx-5cFmU9Rm2TDJQu1mYt0Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859463512808-k08hv3ig20gmlghhvlgrvn0f3pihcpap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

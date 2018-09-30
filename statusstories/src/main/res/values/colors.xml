@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ss_colorPrimary">#9E9E9E</color>
+    <color name="ss_colorPrimaryDark">#616161</color>
+    <color name="ss_colorAccent">#00ffcc</color>
+
+    <color name="ss_progress_startColor">#00ffcc</color>
+    <color name="ss_progress_endColor">#00ba95</color>
+    <color name="ss_progress_centerColor">#008066</color>
+
+    <color name="ss_secondaryProgress_startColor">#d500ff</color>
+    <color name="ss_secondaryProgress_endColor">#d500ff</color>
+    <color name="ss_secondaryProgress_centerColor">#d500ff</color>
+
+    <color name="ss_background_startColor">#ff9d9e9d</color>
+    <color name="ss_background_endColor">#ff747674</color>
+    <color name="ss_background_centerColor">#ff5a5d5a</color>
+</resources>
